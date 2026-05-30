@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .dark {
+    /* Figma Style Guide — blue */
+    --blue-100: 126 164 215;
+    --blue-200: 44 133 252;
+    --blue-300: 34 102 193;
+    --blue-400: 13 40 76;
+
+    /* Figma Style Guide — cyan */
+    --cyan-100: 45 235 252;
+    --cyan-200: 24 125 134;
+    --cyan-300: 14 71 76;
+
+    /* Figma Style Guide — gray + white */
+    --gray-100: 233 234 236;
+    --gray-200: 211 213 217;
+    --gray-300: 147 151 158;
+    --gray-400: 32 36 44;
+    --gray-500: 22 24 29;
+    --gray-600: 20 22 26;
+    --gray-700: 16 18 22;
+    --gray-800: 11 12 15;
+    --white: 255 255 255;
+
+    /* shadcn semantic tokens */
+    --background: var(--gray-800);
+    --foreground: var(--gray-100);
+    --navbar: var(--gray-600);
+    --card: var(--gray-600);
+    --card-foreground: var(--gray-100);
+    --popover: var(--gray-600);
+    --popover-foreground: var(--gray-100);
+    --primary: var(--blue-200);
+    --primary-foreground: var(--white);
+    --secondary: var(--gray-100);
+    --secondary-foreground: var(--gray-800);
+    --muted: var(--gray-500);
+    --muted-foreground: var(--gray-300);
+    --accent: var(--gray-500);
+    --accent-foreground: var(--gray-100);
+    --destructive: 239 68 68;
+    --destructive-foreground: var(--white);
+    --border: var(--gray-700);
+    --input: var(--gray-400);
+    --ring: var(--blue-200);
+    --radius: 0.5rem;
+    --chart-1: #2c85fc;
+    --chart-2: #2debfc;
+    --chart-3: #2266c1;
+    --chart-4: #7ea4d7;
+    --chart-5: #187d86;
+    --sidebar: var(--gray-600);
+    --sidebar-foreground: var(--gray-100);
+    --sidebar-primary: var(--blue-200);
+    --sidebar-primary-foreground: var(--white);
+    --sidebar-accent: var(--gray-500);
+    --sidebar-accent-foreground: var(--gray-100);
+    --sidebar-border: var(--gray-700);
+    --sidebar-ring: var(--blue-200);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
