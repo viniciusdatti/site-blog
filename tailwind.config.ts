@@ -8,8 +8,17 @@ export default {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
+    "./src/templates/**/*.{js,ts,jsx,tsx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1200px",
+      },
+    },
     extend: {
       borderRadius: {
         lg: "0.5rem",
@@ -30,6 +39,7 @@ export default {
         "body-md": ["16px", { lineHeight: "150%", fontWeight: "400" }],
         "body-sm": ["14px", { lineHeight: "150%", fontWeight: "400" }],
         "body-xs": ["12px", { lineHeight: "150%", fontWeight: "400" }],
+        "body-tag": ["12px", { lineHeight: "100%", fontWeight: "400" }],
         "action-md": ["16px", { lineHeight: "normal", fontWeight: "500" }],
         "action-sm": ["14px", { lineHeight: "normal", fontWeight: "500" }],
       },
