@@ -2,6 +2,16 @@
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
   "less.lint.unknownAtRules": "ignore",
+  "editor.colorDecorators": true,
+  "editor.colorDecoratorsLimit": 500,
+  "editor.defaultColorDecorators": "always",
+  "tailwindCSS.showColorDecorators": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
   "files.watcherExclude": {
     "**/.next/**": true,
     "**/node_modules/**": true
