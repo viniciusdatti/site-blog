@@ -1,6 +1,7 @@
 {
   "name": "site-blog",
   "version": "0.1.0",
+  "description": "Study project — Next.js App Router landing page + Contentlayer blog (Rocketseat Next.js Fundamentals course)",
   "private": true,
   "scripts": {
     "dev": "next dev --webpack --disable-source-maps",
