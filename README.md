@@ -2,6 +2,8 @@
 
 A personal blog built with Next.js, TypeScript, Tailwind CSS and shadcn/ui.
 
+> Projeto desenvolvido durante o curso [**Fundamentos do Next.js**](https://github.com/rocketseat-education/nextjs-fundamentos-do-next) da [Rocketseat](https://www.rocketseat.com.br/) — repositório de estudo e prática.
+
 ## ✨ Features
 
 - Responsive layout with Tailwind CSS
