@@ -1,13 +1,16 @@
 # site-blog
 
-A personal blog built with Next.js, TypeScript, Tailwind CSS and shadcn/ui.
+Projeto desenvolvido durante o curso **Fundamentos do Next.js** ([Rocketseat](https://github.com/rocketseat-education/nextjs-fundamentos-do-next)).
+
+Landing page + blog com App Router, Contentlayer e TypeScript. Repositório de **estudo e prática** — não é meu portfólio principal.
 
 ## ✨ Features
 
-- Responsive layout with Tailwind CSS
-- Component library with shadcn/ui
-- Static generation with Next.js
-- TypeScript throughout
+- App Router (`/`, `/blog`, `/blog/[slug]`, `/user`)
+- Blog com posts em Markdown (Contentlayer)
+- Layout responsivo com Tailwind CSS
+- Componentes com shadcn/ui
+- Boundaries: `loading`, `error`, `not-found`
 
 ## 🛠 Tech Stack
 
@@ -20,32 +23,33 @@ A personal blog built with Next.js, TypeScript, Tailwind CSS and shadcn/ui.
 ### Prerequisites
 
 - Node.js 18+
-- npm or yarn
+- npm
 
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/viniciusdatti/site-blog.git
 cd site-blog
-
-# Install dependencies
-npm install
-
-# Start the development server
+npm install --legacy-peer-deps
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+```bash
+npm run build
+```
+
 ## 📁 Project Structure
 
 ```
 site-blog/
+├── posts/              # Markdown blog posts (Contentlayer)
 ├── public/
 └── src/
+    ├── app/            # App Router routes
     ├── components/
-    ├── pages/
+    ├── templates/
     └── styles/
 ```
 
